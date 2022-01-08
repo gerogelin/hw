@@ -18,9 +18,32 @@
 -I../../outdir/nv_small/vmod/rams/synth
 -I../../outdir/nv_small/vmod/vlibs
 -I../../outdir/nv_small/vmod/include
+-v ../../outdir/nv_small/vmod/fifos/NV_NVDLA_PDP_WDMA_DAT_fifo.v
+-v ../../outdir/nv_small/vmod/fifos/NV_NVDLA_PDP_RDMA_lat_fifo.v
+-v ../../outdir/nv_small/vmod/fifos/NV_NVDLA_PDP_RDMA_ro_fifo.v
+-v ../../outdir/nv_small/vmod/fifos/NV_NVDLA_CDP_DP_intpinfo_fifo.v
+-v ../../outdir/nv_small/vmod/fifos/NV_NVDLA_CDP_DP_data_fifo.v
+-v ../../outdir/nv_small/vmod/fifos/NV_NVDLA_CDP_DP_sumpd_fifo.v
+-v ../../outdir/nv_small/vmod/fifos/NV_NVDLA_CDP_RDMA_lat_fifo.v
+-v ../../outdir/nv_small/vmod/fifos/NV_NVDLA_CDP_RDMA_ro_fifo.v
+-v ../../outdir/nv_small/vmod/fifos/NV_NVDLA_CDMA_WT_8ATMM_fifo.v
+-v ../../outdir/nv_small/vmod/fifos/NV_NVDLA_CDP_WDMA_dat_fifo.v
+-v ../../outdir/nv_small/vmod/fifos/NV_NVDLA_SDP_BRDMA_cq_lib.v
+-v ../../outdir/nv_small/vmod/fifos/NV_NVDLA_SDP_BRDMA_lat_fifo_lib.v
+-v ../../outdir/nv_small/vmod/fifos/NV_NVDLA_SDP_ERDMA_cq_lib.v
+-v ../../outdir/nv_small/vmod/fifos/NV_NVDLA_SDP_ERDMA_lat_fifo_lib.v
+-v ../../outdir/nv_small/vmod/fifos/NV_NVDLA_SDP_MRDMA_cq_lib.v
+-v ../../outdir/nv_small/vmod/fifos/NV_NVDLA_SDP_MRDMA_EG_lat_fifo_lib.v
+-v ../../outdir/nv_small/vmod/fifos/NV_NVDLA_SDP_NRDMA_cq_lib.v
+-v ../../outdir/nv_small/vmod/fifos/NV_NVDLA_SDP_NRDMA_lat_fifo_lib.v
 -v ../../outdir/nv_small/vmod/vlibs/RANDFUNC.vlib
 -v ../../outdir/nv_small/vmod/vlibs/nv_assert_no_x.vlib
 -v ../../outdir/nv_small/vmod/nvdla/nocif/NV_NVDLA_XXIF_libs.v
+-v ../../outdir/nv_small/vmod/rams/model/RAMPDP_80X17_GL_M2_D2.v
+-v ../../outdir/nv_small/vmod/rams/model/RAMDP_16X14_GL_M1_E2.v
+-v ../../outdir/nv_small/vmod/rams/model/RAMDP_16X66_GL_M1_E2.v
+-v ../../outdir/nv_small/vmod/rams/model/RAMDP_16X16_GL_M1_E2.v
+-v ../../outdir/nv_small/vmod/rams/model/RAMDP_8X66_GL_M1_E2.v
 -v ../../outdir/nv_small/vmod/rams/model/RAMPDP_248X82_GL_M2_D2.v
 -v ../../outdir/nv_small/vmod/rams/model/RAMPDP_32X192_GL_M1_D2.v
 -v ../../outdir/nv_small/vmod/rams/model/RAMPDP_32X224_GL_M1_D2.v

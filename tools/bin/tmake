@@ -139,7 +139,7 @@ my $fail=0;
 foreach my $project (@projects) {
     my $alog = "$outdir/$project".".log";
 
-    my @lines = `tail $alog -n 1`;
+    my @lines = `tail -n 1 $alog`;
     my $line = shift @lines; chomp $line;
     if ($line =~ /TMAKE:PASS/) {
         $result = "PASS";

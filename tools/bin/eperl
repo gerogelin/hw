@@ -215,7 +215,7 @@ sub CreateOutput {
   use strict;
   my ($InFile, $TmpFile, $OutFile) = @_;
   my ($SysCmd, $CmpDiffs);
-  &System ("chmod --reference=$InFile $TmpFile");
+  #&System ("chmod --reference=$InFile $TmpFile");
   if ($opt_m) {
     $CmpDiffs = &System ("cmp -s $TmpFile $InFile", 1);
     if ($CmpDiffs) {

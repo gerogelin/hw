@@ -855,7 +855,7 @@ int main(int argc, const char **argv, char **env) {
 		
 		.w_wvalid = &dla->nvdla_core2dbb_w_wvalid,
 		.w_wready = &dla->nvdla_core2dbb_w_wready,
-		.w_wdata = AXI_WDATA_MKPTR dla->nvdla_core2dbb_w_wdata,
+		.w_wdata = (uint64_t *)AXI_WDATA_MKPTR dla->nvdla_core2dbb_w_wdata,
 		.w_wstrb = &dla->nvdla_core2dbb_w_wstrb,
 		.w_wlast = &dla->nvdla_core2dbb_w_wlast,
 		
@@ -873,7 +873,7 @@ int main(int argc, const char **argv, char **env) {
 		.r_rready = &dla->nvdla_core2dbb_r_rready,
 		.r_rid = &dla->nvdla_core2dbb_r_rid,
 		.r_rlast = &dla->nvdla_core2dbb_r_rlast,
-		.r_rdata = AXI_WDATA_MKPTR dla->nvdla_core2dbb_r_rdata,
+		.r_rdata = (uint64_t *)AXI_WDATA_MKPTR dla->nvdla_core2dbb_r_rdata,
 	};
 	AXIResponder *axi_dbb = new AXIResponder(dbbconn, "DBB");
 
