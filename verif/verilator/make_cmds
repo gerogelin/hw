@@ -1,0 +1,2 @@
+make TEST=cdp_1x1x1_lrn3_int8_0 run
+make TEST=dc_13x15x64_5x3x64x16_int8_0 run
