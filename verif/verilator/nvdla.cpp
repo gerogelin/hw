@@ -950,7 +950,7 @@ int main(int argc, const char **argv, char **env) {
 		dla->eval();
 		ticks++;
 #if VM_TRACE
-		tfp->dump(ticks);
+		tfp->dump((vluint64_t)ticks);
 #endif
 		
 		dla->dla_core_clk = 0;
@@ -958,7 +958,7 @@ int main(int argc, const char **argv, char **env) {
 		dla->eval();
 		ticks++;
 #if VM_TRACE
-		tfp->dump(ticks);
+		tfp->dump((vluint64_t)ticks);
 #endif
 	}
 
@@ -972,7 +972,7 @@ int main(int argc, const char **argv, char **env) {
 		dla->eval();
 		ticks++;
 #if VM_TRACE
-		tfp->dump(ticks);
+		tfp->dump((vluint64_t)ticks);
 #endif
 		
 		dla->dla_core_clk = 0;
@@ -980,7 +980,7 @@ int main(int argc, const char **argv, char **env) {
 		dla->eval();
 		ticks++;
 #if VM_TRACE
-		tfp->dump(ticks);
+		tfp->dump((vluint64_t)ticks);
 #endif
 	}
 	
@@ -994,7 +994,7 @@ int main(int argc, const char **argv, char **env) {
 		dla->eval();
 		ticks++;
 #if VM_TRACE
-		tfp->dump(ticks);
+		tfp->dump((vluint64_t)ticks);
 #endif
 		
 		dla->dla_core_clk = 0;
@@ -1002,7 +1002,7 @@ int main(int argc, const char **argv, char **env) {
 		dla->eval();
 		ticks++;
 #if VM_TRACE
-		tfp->dump(ticks);
+		tfp->dump((vluint64_t)ticks);
 #endif
 	}
 
@@ -1037,7 +1037,7 @@ int main(int argc, const char **argv, char **env) {
 		dla->eval();
 		ticks++;
 #if VM_TRACE
-		tfp->dump(ticks);
+		tfp->dump((vluint64_t)ticks);
 #endif
 		
 		dla->dla_core_clk = 0;
@@ -1045,7 +1045,7 @@ int main(int argc, const char **argv, char **env) {
 		dla->eval();
 		ticks++;
 #if VM_TRACE
-		tfp->dump(ticks);
+		tfp->dump((vluint64_t)ticks);
 #endif
 	}
 	

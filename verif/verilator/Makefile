@@ -13,7 +13,7 @@ default: $(DEPTH)/$(OUTDIR)/$(PROJECT)/verilator/VNV_nvdla
 
 VERILATOR_PARAMS ?= --compiler clang --output-split 250000000
 # Perhaps you need to trace?
-#   VERILATOR_PARAMS += --trace --trace-depth 7 --trace-max-array 8
+VERILATOR_PARAMS += --trace --trace-depth 7 --trace-max-array 8
 
 # Perhaps you want to optimize?
 #   VERILATOR_PARAMS += -O3
