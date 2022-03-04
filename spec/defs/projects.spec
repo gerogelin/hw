@@ -369,6 +369,8 @@
 
 #if defined(NUM_DMA_WRITE_CLIENTS_5)
     %define NVDLA_NUM_DMA_WRITE_CLIENTS 5
+#elif defined(NUM_DMA_WRITE_CLIENTS_4)
+    %define NVDLA_NUM_DMA_WRITE_CLIENTS 4
 #elif defined(NUM_DMA_WRITE_CLIENTS_3)
     %define NVDLA_NUM_DMA_WRITE_CLIENTS 3
 #endif
